@@ -1,0 +1,6 @@
+
+{
+  "name": "Nexus Portfolio - Immersive AI Showcase",
+  "description": "A high-end, technologically advanced immersive portfolio featuring 3D visuals, AI-powered interactions via Gemini, and futuristic UI design.",
+  "requestFramePermissions": ["camera", "microphone"]
+}
