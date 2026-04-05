@@ -37,7 +37,7 @@ const App: React.FC = () => {
             const player1 = window.TCPlayer('player-container-id', {
               reportable: false,
             });
-            player1.src('https://rui-portfolio-01-1417441599.cos.ap-shanghai.myqcloud.com/Video/01-1.mov?q-sign-algorithm=sha1&q-ak=AKIDCWSRCBLmvMwD57DnZQM5PQXCNDraJR6fmpuwjJYBd4e-tw46GsMz8OtXRsKs5Pj5&q-sign-time=1774875480;1774879080&q-key-time=1774875480;1774879080&q-header-list=host&q-url-param-list=&q-signature=58e458fb2c0ef6cba7c8c53a9778109747d39b94&x-cos-security-token=aucDCoRN8d4o638VBaszSAYRgU7NgkZaa8e086d944dd3d7a0ff45dba8a8d31e6mbhbgvPKq8JsUXkXjBhyB9AJ2v7xgIi24K3q-n1t1QnDCm0URF-CYhHRxwq92ori3J3ECYcDVHuxm2Yij6_wFrfg4u0c8pOpQ1d7j4c-0ZCFHr2fGpuovSwQLXr7owUTk2GsCd-zNpm2mzAaxoljfEsdE4EBIoHDaqi0Jh4smnX1TFyqMcq3T1KRLfZ-e9nLdkrhSBJ5ZkZ8rc5z6j5BNgGatDJV3y6odT3spSjnCoS0R27sRpECqTjImDsyJ4tj__xVPPNAAdWId8o_lwEPxw&');
+            player1.src('https://rui-portfolio-01-1417441599.cos.ap-shanghai.myqcloud.com/Video/01-1.mov');
           }
 
           // Initialize second player
@@ -46,7 +46,7 @@ const App: React.FC = () => {
             const player2 = window.TCPlayer('player-container-id-2', {
               reportable: false,
             });
-            player2.src('https://rui-portfolio-01-1417441599.cos.ap-shanghai.myqcloud.com/Video/01-2.mov?q-sign-algorithm=sha1&q-ak=AKIDHgYvL6YS8Nuux12wu-B8CY1E_3ue-QDDH5LFOCfgCUf-oOpmeFB9sOlu5uKgEUFF&q-sign-time=1774875497;1774879097&q-key-time=1774875497;1774879097&q-header-list=host&q-url-param-list=&q-signature=131410d5fa4b86c5b6b9bfd97d90a5955398c529&x-cos-security-token=aucDCoRN8d4o638VBaszSAYRgU7NgkZabc559c997718cd38ea75f7f6161dc524mbhbgvPKq8JsUXkXjBhyB0FTe7CYRB_KOXhJ0E8zX1BAjG-m6YW2g63JZwRdEae5AFWHGlGHD3EgYevkpDDGvhHQi2-WpoEr7NRcYQ5uFxUM2nkBgeTVdvz9HWiQBxs8ho-gA_9X7rLF4uDAEyws6kx3PCI2kgs8Vgazsbeq3jj81taDZsHbcNTUjzR3mspz1oZOPeA7-merQ6gUjLRX6vVyYxqrnLrnGLdxGV58pc-8SEtDoT_OJNKbNSNK7exgVSpX4MxcgIEk0e5SRJDDCw&');
+            player2.src('https://rui-portfolio-01-1417441599.cos.ap-shanghai.myqcloud.com/Video/01-2.mov');
           }
         }
 
@@ -57,7 +57,7 @@ const App: React.FC = () => {
             const player3 = window.TCPlayer('player-container-id-3', {
               reportable: false,
             });
-            player3.src('https://rui-portfolio-01-1417441599.cos.ap-shanghai.myqcloud.com/Video/02-1.mov?q-sign-algorithm=sha1&q-ak=AKIDlGbSXySXqZhqmg782h8RPrchl5t5_1VrZuJ7Gr92iL4yl0vGNW-MKZXPhyM0aEOA&q-sign-time=1774875513;1774879113&q-key-time=1774875513;1774879113&q-header-list=host&q-url-param-list=&q-signature=378d2b076edf4e796654c896eb12234d91692ffa&x-cos-security-token=aucDCoRN8d4o638VBaszSAYRgU7NgkZa9e99c329b45372abddd39c9ecc6be8bembhbgvPKq8JsUXkXjBhyBzAlqohEuCu5CPWEzTsGPrM4ASE1YRVZ6tYZxc0Grt8gGcmOWarjrnx-tQc2pulT3uh0AZjAwCq-l_uome_RGoc7OYyBKmrbpy3m_3E54ivodjLASLgtxMsgoMuoxbRJzCi4OGx7tQOOAfiOyad1BIOpGz8gOkDnc_JtISwR8QlJDFjss9T4l5z8S96InmuIaJ7KXULI5QwVUQRp4k4wL_HPOR4UrPprbFhgSXM2AigZf4oqXYA_xSyAq-CY66Tsrw&');
+            player3.src('https://rui-portfolio-01-1417441599.cos.ap-shanghai.myqcloud.com/Video/02-1.mov');
           }
         }
       }, 100);
@@ -297,12 +297,12 @@ const App: React.FC = () => {
             <motion.div
               whileHover={{ scale: 1.05 }}
               className="flex items-center gap-3 px-6 py-3 rounded-2xl bg-white/5 text-zinc-300 hover:shadow-lg hover:shadow-pink-500/5 transition-all cursor-pointer"
-              onClick={() => navigator.clipboard.writeText('noiz.noodles')}
+              onClick={() => navigator.clipboard.writeText('NoizandNoodles')}
             >
               <span className="text-2xl">💬</span>
               <div className="text-left">
                 <div className="text-sm font-bold">微信</div>
-                <div className="text-xs text-zinc-400">noiz.noodles</div>
+                <div className="text-xs text-zinc-400">NoizandNoodles</div>
               </div>
             </motion.div>
             <motion.div
